@@ -22,7 +22,11 @@ export const TERRAIN_NOISE_AMPLITUDE = 2.5;
 export const TERRAIN_Y = -2;
 export const TERRAIN_Z = -10;
 export const TERRAIN_OPACITY = 0.7;
-export const TERRAIN_POSITION: [number, number, number] = [0, TERRAIN_Y, TERRAIN_Z];
+export const TERRAIN_POSITION: [number, number, number] = [
+  0,
+  TERRAIN_Y,
+  TERRAIN_Z,
+];
 export const TERRAIN_ROTATION: [number, number, number] = [-Math.PI / 2, 0, 0];
 
 export const GRID_SIZE = TERRAIN_WIDTH;
