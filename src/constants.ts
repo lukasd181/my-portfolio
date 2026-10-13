@@ -54,7 +54,7 @@ export const CAMERA_POSITION: [number, number, number] = [
 export const CAMERA_PARALLAX_X = 1.5;
 export const CAMERA_PARALLAX_Y = 0.75;
 export const CAMERA_SCROLL_DOLLY = 10;
-export const CAMERA_LERP_SPEED = 4;
+export const CAMERA_LERP_SPEED = 1000;
 export const CAMERA_LOOK_AT: [number, number, number] = [0, 0, -5];
 
 export const SCROLL_PAGES = 4;
