@@ -1,3 +1,5 @@
+"use client";
+
 import { Float } from "@react-three/drei";
 import * as THREE from "three";
 import {

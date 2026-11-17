@@ -1,3 +1,5 @@
+"use client";
+
 import { useMemo } from "react";
 import { useFrame } from "@react-three/fiber";
 import { useScroll } from "@react-three/drei";

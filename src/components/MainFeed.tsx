@@ -16,8 +16,8 @@ const dummy = [
 const MainFeed = () => {
   return (
     <div className="flex flex-col">
-      {dummy.map((dum) => (
-        <div>{dum}</div>
+      {dummy.map((dum, index) => (
+        <div key={index}>{dum}</div>
       ))}
     </div>
   );
