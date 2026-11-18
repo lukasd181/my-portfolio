@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import WebNavBar from "@/components/WebNavBar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="flex h-full w-full flex-row">
+          <WebNavBar />
+          <main className="h-full w-full flex-1">{children}</main>
+        </div>
+      </body>
     </html>
   );
 }

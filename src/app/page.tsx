@@ -2,10 +2,10 @@
 
 import dynamic from "next/dynamic";
 
-const Background = dynamic(() => import("@/components/Background"), {
+const MainPage = dynamic(() => import("@/components/MainPage"), {
   ssr: false,
 });
 
 export default function Home() {
-  return <Background />;
+  return <MainPage />;
 }
