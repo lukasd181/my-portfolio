@@ -15,9 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex h-full w-full flex-row">
+        <div className="flex h-full w-full flex-col lg:flex-row justify-start">
           <WebNavBar />
-          <main className="h-full w-full flex-1">{children}</main>
+          <main className="lg:max-w-(--content-width)">{children}</main>
         </div>
       </body>
     </html>

@@ -1,18 +1,20 @@
+import GitHub from "./GitHub";
+import LinkedIn from "./LinkedIn";
+import Moon from "./Moon";
+
 const WebNavBar = () => {
   return (
-    <div className="h-full w-1/5 p-4 ">
-      {/*Header  */}
-      <div className="flex flex-row justify-between justify-end w-full">
-        <div>hungduong.dev</div>
-        <div>
-          <div>Dark Mode</div>
-        </div>
+    <div className="h-auto p-4 flex flex-col justify-between gap-4">
+      <div className="flex flex-col justify-start">
+        <h1 className="text-[24px]">hung duong</h1>
+        <p>[:hung zuong]</p>
       </div>
-      {/* Description */}
-      <div className="mt-4 text-right">
-        {
-          "Software engineer. Martial artist. Building things that work, breaking things that don't."
-        }
+      <div className="flex flex-row justify-start gap-2">
+        <button>about</button>
+        <button>exp.</button>
+        <LinkedIn />
+        <GitHub />
+        <Moon />
       </div>
     </div>
   );

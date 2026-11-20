@@ -1,5 +1,5 @@
 const MainPage = () => {
-  return <div className="border h-full w-full">Right</div>;
+  return <>Right</>;
 };
 
 export default MainPage;
